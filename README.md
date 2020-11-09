@@ -10,8 +10,7 @@ Modern deep learning frameworks support a variety of hardware, including CPU, GP
 
 # How to use AlloX
 There are two main components for AlloX: 
-* The scheduler is implemeted based on k8s kube-scheduler https://github.com/kubernetes/kube-scheduler. The details of building and development can be found here: 
-The whole implementation is in `kube-scheduler`.
+* The scheduler is implemeted based on k8s kube-scheduler. Please refer the change here https://github.com/lenhattan86/kubernetes-allox.
 * Profiler: The job profiler estimates the completion times for ML training jobs. 
 * Simulator: The simulator is used in the paper for the large-scale simulation https://github.com/lenhattan86/IRFsim.
 
